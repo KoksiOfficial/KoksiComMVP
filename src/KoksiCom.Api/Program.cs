@@ -1,7 +1,9 @@
 using KoksiCom.Api.Guest;
+using KoksiCom.Api.Rooms;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddGuest();
+builder.Services.AddRooms();
 
 var app = builder.Build();
 
@@ -15,5 +17,6 @@ app.UseStaticFiles();
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapGuest();
+app.MapRooms();
 
 app.Run();
