@@ -38,3 +38,8 @@ C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityMod
 C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\KoksiCom.Api.csproj.AssemblyReference.cache
 C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\KoksiCom.ACF53268.Up2Date
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\r28g39axeq-{0}-c4nartsk17-c4nartsk17.gz
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\v88f669ktn-{0}-of2rd20te7-of2rd20te7.gz
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\99smvgtbpn-{0}-74yt0j96g8-74yt0j96g8.gz
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\v88f669ktn-{0}-qpb9c9ohfr-qpb9c9ohfr.gz
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\99smvgtbpn-{0}-1pu5c726cl-1pu5c726cl.gz

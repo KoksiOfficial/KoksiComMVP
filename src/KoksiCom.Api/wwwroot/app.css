@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.page {
+  display: none;
+  min-height: 100vh;
+  position: relative;
+}
+
+.page.is-visible {
+  display: block;
+}
+
+#page-login h1,
+#page-list h1 {
+  text-align: center;
+  margin: 16px 0;
+}
+
+#logIn-frm,
+#rooms-tbl,
+#enterRoom-frm,
+#createRoom-frm {
+  margin: 24px auto;
+  width: max-content;
+  max-width: 90%;
+}
+
+#logIn-frm,
+#enterRoom-frm,
+#createRoom-frm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #333;
+  background: #f3f3f3;
+  padding: 16px;
+}
+
+#createRoom-btn,
+#leave-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+#logOut-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+#rooms-tbl,
+#users-tbl,
+#stats-tbl {
+  border-collapse: collapse;
+}
+
+#rooms-tbl th,
+#rooms-tbl td,
+#users-tbl th,
+#users-tbl td,
+#stats-tbl th,
+#stats-tbl td {
+  border: 1px solid #000;
+  padding: 4px 8px;
+}
+
+#rooms-tbl tbody tr {
+  cursor: pointer;
+}
+
+#error-msg {
+  position: fixed;
+  z-index: 20;
+  border: 1px solid red;
+  background: #fff;
+  padding: 8px 12px;
+  opacity: 1;
+}
+
+#error-msg.is-fading {
+  animation: error-fade 5s linear forwards;
+}
+
+@keyframes error-fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@media (min-width: 601px) {
+  #error-msg {
+    top: 12px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  #error-msg {
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+#loading-msg {
+  position: fixed;
+  z-index: 21;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+form.is-loading {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.room-layout {
+  display: grid;
+  grid-template-columns: minmax(120px, 1fr) auto 1fr;
+  grid-template-areas:
+    "dashboard controls users"
+    "dashboard inbound chat";
+  gap: 12px;
+  padding: 56px 16px 16px;
+  align-items: start;
+}
+
+#dashboard {
+  grid-area: dashboard;
+}
+
+#control-panel {
+  grid-area: controls;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#users-tbl {
+  grid-area: users;
+}
+
+#inbound-broadcast {
+  grid-area: inbound;
+}
+
+#chat {
+  grid-area: chat;
+}
+
+#chat-list {
+  list-style: none;
+  padding: 0;
+}
+
+#remote-sdp,
+#local-sdp {
+  width: 100%;
+  min-height: 4em;
+}

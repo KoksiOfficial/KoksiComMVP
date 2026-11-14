@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KoksiCom</title>
+  <link rel="stylesheet" href="app.css?v=6">
+</head>
+<body>
+  <div id="error-msg" hidden></div>
+  <p id="loading-msg" hidden>Loading...</p>
+
+  <section id="page-login" class="page">
+    <h1>KoksiCom</h1>
+    <form id="logIn-frm">
+      <label id="name_lbl" for="login-name">Display name (English letters and digits, 2 to 10 characters)</label>
+      <input id="login-name" type="text" name="name">
+      <button type="button">Submit</button>
+    </form>
+  </section>
+
+  <section id="page-list" class="page">
+    <h1>KoksiCom</h1>
+    <button id="logOut-btn" type="button">Log out</button>
+    <button id="createRoom-btn" type="button">Create room</button>
+    <table id="rooms-tbl">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Users</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <form id="enterRoom-frm" hidden>
+      <h2 id="enter-room-title"></h2>
+      <label id="pwd_lbl" for="enter-pwd">Password</label>
+      <input id="enter-pwd" type="text" name="pwd">
+      <button type="button">Submit</button>
+    </form>
+    <form id="createRoom-frm" hidden>
+      <label id="roomName_lbl" for="create-name">Name (English letters and digits, 2 to 10 characters)</label>
+      <input id="create-name" type="text" name="name">
+      <label id="roomPwd_lbl" for="create-pwd">Password (Must contain number, upper and lower case char, length 6 to 10)</label>
+      <input id="create-pwd" type="text" name="pwd">
+      <button type="button">Submit</button>
+    </form>
+  </section>
+
+  <section id="page-room" class="page">
+    <h1 id="room-title"></h1>
+    <button id="leave-btn" type="button">Leave room</button>
+    <div class="room-layout">
+      <div id="dashboard">
+        <p>my IP from STUN server <span id="stun-ip"></span></p>
+        <table id="stats-tbl"></table>
+        <details>
+          <summary>remote SDP</summary>
+          <textarea id="remote-sdp" readonly></textarea>
+        </details>
+        <details>
+          <summary>local SDP</summary>
+          <textarea id="local-sdp" readonly></textarea>
+        </details>
+      </div>
+      <div id="control-panel">
+        <button id="mic-btn" type="button">Microphone</button>
+        <button id="headphones-btn" type="button">Headphones</button>
+        <button id="share-btn" type="button">Share screen</button>
+        <button id="stopShare-btn" type="button" hidden>Stop sharing</button>
+      </div>
+      <table id="users-tbl">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Mic</th>
+            <th>Headphones</th>
+            <th>Share</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <div id="inbound-broadcast" hidden>
+        <h3 id="inbound-name"></h3>
+        <div id="broadcast-area">
+          <input type="range" min="0" max="100" value="100" aria-label="volume">
+          <button type="button">Extend</button>
+        </div>
+      </div>
+      <div id="chat">
+        <h3>Chat</h3>
+        <ul id="chat-list"></ul>
+        <input type="text">
+        <button type="button">Submit</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js?v=6"></script>
+</body>
+</html>

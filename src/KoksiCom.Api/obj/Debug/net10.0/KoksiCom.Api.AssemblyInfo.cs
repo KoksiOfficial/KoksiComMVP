@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoksiCom.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8f5ff19f03fbf7e0430d6931d368b1bc779ef3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+598bb4912d7f345e5a93e70897014fecf67d8fde")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoksiCom.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoksiCom.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
