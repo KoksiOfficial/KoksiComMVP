@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WZokptm+SDo=",
+  "dgSpecHash": "uX4l/vYg8Jk=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\KoksiCom.Rooms.Tests.csproj",
+  "projectFilePath": "c:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\KoksiCom.Rooms.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.0\\microsoft.aspnetcore.authentication.jwtbearer.10.0.0.nupkg.sha512",

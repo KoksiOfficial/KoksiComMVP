@@ -24,6 +24,16 @@ public sealed class RoomRegistry
         }
     }
 
+    public IReadOnlyList<string> MembersInRoom(string roomName)
+    {
+        lock (_gate)
+        {
+            return _rooms.TryGetValue(roomName, out var room)
+                ? room.Members.ToArray()
+                : [];
+        }
+    }
+
     public CreateResult TryCreate(string guest, string? name, string? password)
     {
         if (!DisplayName.IsValid(name) || name is null || !RoomPassword.IsValid(password) || password is null)

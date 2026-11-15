@@ -114,3 +114,6 @@ C:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\Microso
 C:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+c:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.SignalR.Client.dll
+c:\Projects\KoksiComMVP\tests\KoksiCom.Signaling.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.SignalR.Client.Core.dll

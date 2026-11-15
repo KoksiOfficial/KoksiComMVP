@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "g+f5GJUV31I=",
+  "dgSpecHash": "FJsU/zySpxo=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Signaling.Tests\\KoksiCom.Signaling.Tests.csproj",
+  "projectFilePath": "c:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Signaling.Tests\\KoksiCom.Signaling.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.0\\microsoft.aspnetcore.authentication.jwtbearer.10.0.0.nupkg.sha512",
+    "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.aspnetcore.http.connections.client\\10.0.0\\microsoft.aspnetcore.http.connections.client.10.0.0.nupkg.sha512",
+    "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.aspnetcore.signalr.client\\10.0.0\\microsoft.aspnetcore.signalr.client.10.0.0.nupkg.sha512",
+    "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.aspnetcore.signalr.client.core\\10.0.0\\microsoft.aspnetcore.signalr.client.core.10.0.0.nupkg.sha512",
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",

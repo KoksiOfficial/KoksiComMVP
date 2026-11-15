@@ -1249,11 +1249,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\KoksiCom.Rooms.Tests.csproj",
+      "projectUniqueName": "c:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\KoksiCom.Rooms.Tests.csproj",
       "projectName": "KoksiCom.Rooms.Tests",
-      "projectPath": "C:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\KoksiCom.Rooms.Tests.csproj",
+      "projectPath": "c:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\KoksiCom.Rooms.Tests.csproj",
       "packagesPath": "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget",
-      "outputPath": "C:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\obj\\",
+      "outputPath": "c:\\Projects\\KoksiComMVP\\tests\\KoksiCom.Rooms.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1276,8 +1276,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\KoksiCom.Api.csproj": {
-              "projectPath": "C:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\KoksiCom.Api.csproj"
+            "c:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\KoksiCom.Api.csproj": {
+              "projectPath": "c:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\KoksiCom.Api.csproj"
             }
           }
         }

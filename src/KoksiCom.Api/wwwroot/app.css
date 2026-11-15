@@ -129,7 +129,7 @@ form.is-loading {
 
 .room-layout {
   display: grid;
-  grid-template-columns: minmax(120px, 1fr) auto 1fr;
+  grid-template-columns: auto auto minmax(0, 1fr);
   grid-template-areas:
     "dashboard controls users"
     "dashboard inbound chat";
@@ -140,6 +140,17 @@ form.is-loading {
 
 #dashboard {
   grid-area: dashboard;
+  align-self: start;
+}
+
+#dashboard[open] {
+  max-width: 25vw;
+  max-height: calc(100vh - 72px);
+  overflow: auto;
+}
+
+#dashboard > summary {
+  cursor: pointer;
 }
 
 #control-panel {
@@ -151,6 +162,10 @@ form.is-loading {
 
 #users-tbl {
   grid-area: users;
+}
+
+#users-tbl tbody tr {
+  cursor: pointer;
 }
 
 #inbound-broadcast {
@@ -170,4 +185,10 @@ form.is-loading {
 #local-sdp {
   width: 100%;
   min-height: 4em;
+}
+
+#inbound-video {
+  display: block;
+  max-width: 240px;
+  background: #000;
 }
