@@ -28,3 +28,17 @@ C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\refint\KoksiCom.Api.d
 C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\KoksiCom.Api.pdb
 C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\KoksiCom.Api.genruntimeconfig.cache
 C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\ref\KoksiCom.Api.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\KoksiCom.Api.csproj.AssemblyReference.cache
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\KoksiCom.ACF53268.Up2Date
+c:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\9srkt7lvpw-{0}-m3i9f6419i-m3i9f6419i.gz
+C:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\r28g39axeq-{0}-2ntwcnquxw-2ntwcnquxw.gz
+c:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\v88f669ktn-{0}-3i5vo7bua9-3i5vo7bua9.gz
+c:\Projects\KoksiComMVP\src\KoksiCom.Api\obj\Debug\net10.0\compressed\99smvgtbpn-{0}-h5mthwlznu-h5mthwlznu.gz

@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    environment:
+      ASPNETCORE_HTTP_PORTS: ""
+      ASPNETCORE_URLS: http://0.0.0.0:8080
+    expose:
+      - "8080"
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run
+    environment:
+      TUNNEL_TOKEN: ${TUNNEL_TOKEN}
+    depends_on:
+      - api

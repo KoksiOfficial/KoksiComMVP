@@ -10,7 +10,7 @@
         "projectUniqueName": "C:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\KoksiCom.Api.csproj",
         "projectName": "KoksiCom.Api",
         "projectPath": "C:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\KoksiCom.Api.csproj",
-        "packagesPath": "C:\\Users\\nikit\\AppData\\Local\\Temp\\cursor-sandbox-cache\\a830aad0ad070e1f9f014e18cf05c2e7\\nuget",
+        "packagesPath": "C:\\Users\\nikit\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\KoksiComMVP\\src\\KoksiCom.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -52,6 +52,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

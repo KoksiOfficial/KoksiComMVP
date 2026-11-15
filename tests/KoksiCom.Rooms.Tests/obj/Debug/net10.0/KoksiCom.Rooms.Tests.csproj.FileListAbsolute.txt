@@ -106,3 +106,11 @@ C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\obj\Debug\net10.0\refint\Koks
 C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\obj\Debug\net10.0\KoksiCom.Rooms.Tests.pdb
 C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\obj\Debug\net10.0\KoksiCom.Rooms.Tests.genruntimeconfig.cache
 C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\obj\Debug\net10.0\ref\KoksiCom.Rooms.Tests.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Projects\KoksiComMVP\tests\KoksiCom.Rooms.Tests\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll

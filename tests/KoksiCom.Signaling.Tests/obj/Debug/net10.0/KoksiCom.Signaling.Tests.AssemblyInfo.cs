@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoksiCom.Signaling.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8079468fd161fad3ce243d109b738318503b7f96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65012603b190b75e6b8973b9069eac66ee523e22")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoksiCom.Signaling.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoksiCom.Signaling.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
